@@ -71,9 +71,12 @@ app.get('/blogs/:id', (req, res) => {
             res.render('show', {blog: foundBlog});
         }
     })
-    
 })
 
+// EDIT ROUTE 
+app.get('/blogs/:id/edit', (req, res) => {
+    
+})
 
 
 
